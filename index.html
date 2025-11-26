@@ -6,6 +6,7 @@
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="iocn.png" />
     <title>Johurul Islam - MERN Stack Developer</title>
+    <link rel="stylesheet" href="testimonial.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -162,7 +163,7 @@
         </div>
       </div>
     </section>
-
+    <!-- skills -->
     <section id="skills">
       <h2 class="section-title">Skills & Technologies</h2>
       <div class="skills-grid">
@@ -261,6 +262,276 @@
       </div>
     </section>
 
+    <!-- testimonials -->
+    <section class="testimonials-section">
+      <div class="section-header">
+        <span class="section-label">Testimonials</span>
+        <h2 class="section-title">What Clients Say</h2>
+        <p class="section-subtitle">
+          Don't just take my word for it. Here's what clients and colleagues
+          have to say about working with me.
+        </p>
+      </div>
+
+      <!-- Featured Testimonial Carousel -->
+      <div class="testimonial-carousel">
+        <div class="carousel-container">
+          <div class="carousel-track" id="carouselTrack">
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <p class="testimonial-text">
+                  Johurul is an exceptional developer who consistently delivers
+                  high-quality code. His expertise in the MERN stack and
+                  attention to detail made our project a huge success. He's not
+                  just a coder, but a problem solver who thinks strategically.
+                </p>
+                <div class="testimonial-author">
+                  <div class="author-image">SR</div>
+                  <div class="author-info">
+                    <div class="author-name">Sarah Richardson</div>
+                    <div class="author-role">
+                      Project Manager
+                      <span class="author-company">@ TechVision Inc</span>
+                    </div>
+                    <div class="rating">
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <p class="testimonial-text">
+                  Working with Johurul has been a game-changer for our startup.
+                  His ability to architect scalable solutions and mentor junior
+                  developers is outstanding. He delivered our LMS platform ahead
+                  of schedule with exceptional quality.
+                </p>
+                <div class="testimonial-author">
+                  <div class="author-image">MK</div>
+                  <div class="author-info">
+                    <div class="author-name">Michael Kumar</div>
+                    <div class="author-role">
+                      CTO
+                      <span class="author-company">@ EduTech Solutions</span>
+                    </div>
+                    <div class="rating">
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <p class="testimonial-text">
+                  Johurul's full-stack capabilities are impressive. He
+                  seamlessly integrates frontend and backend, creating cohesive
+                  applications that users love. His communication skills and
+                  dedication to project success set him apart.
+                </p>
+                <div class="testimonial-author">
+                  <div class="author-image">LC</div>
+                  <div class="author-info">
+                    <div class="author-name">Lisa Chen</div>
+                    <div class="author-role">
+                      Product Lead
+                      <span class="author-company">@ Digital Innovations</span>
+                    </div>
+                    <div class="rating">
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-controls">
+          <button class="carousel-btn" onclick="previousSlide()">←</button>
+          <div class="carousel-dots">
+            <span class="dot active" onclick="goToSlide(0)"></span>
+            <span class="dot" onclick="goToSlide(1)"></span>
+            <span class="dot" onclick="goToSlide(2)"></span>
+          </div>
+          <button class="carousel-btn" onclick="nextSlide()">→</button>
+        </div>
+      </div>
+
+      <!-- Additional Testimonials Grid -->
+      <div class="testimonials-grid">
+        <div class="testimonial-card-small">
+          <div class="card-header">
+            <div class="avatar-small">DM</div>
+            <div class="card-author-info">
+              <div class="card-author-name">David Martinez</div>
+              <div class="card-author-role">Senior Developer @ Pixelvega</div>
+            </div>
+          </div>
+          <p class="card-text">
+            "Johurul is a quick learner and great team player. His React skills
+            are top-notch, and he always brings creative solutions to complex
+            problems."
+          </p>
+          <div class="card-rating">
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card-small">
+          <div class="card-header">
+            <div class="avatar-small">AP</div>
+            <div class="card-author-info">
+              <div class="card-author-name">Aisha Patel</div>
+              <div class="card-author-role">UI/UX Designer @ CreativeHub</div>
+            </div>
+          </div>
+          <p class="card-text">
+            "Working with Johurul is seamless. He translates designs into
+            pixel-perfect implementations and provides valuable feedback to
+            improve user experience."
+          </p>
+          <div class="card-rating">
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card-small">
+          <div class="card-header">
+            <div class="avatar-small">RJ</div>
+            <div class="card-author-info">
+              <div class="card-author-name">Robert Johnson</div>
+              <div class="card-author-role">Founder @ HealthCare Plus</div>
+            </div>
+          </div>
+          <p class="card-text">
+            "The doctor appointment system Johurul built for us exceeded
+            expectations. Professional, reliable, and delivered on time. Highly
+            recommended!"
+          </p>
+          <div class="card-rating">
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card-small">
+          <div class="card-header">
+            <div class="avatar-small">NK</div>
+            <div class="card-author-info">
+              <div class="card-author-name">Nina Kowalski</div>
+              <div class="card-author-role">
+                Tech Lead @ Iching Software Lab
+              </div>
+            </div>
+          </div>
+          <p class="card-text">
+            "Johurul's growth as a senior engineer has been remarkable. His
+            technical expertise and leadership in complex projects make him
+            invaluable to our team."
+          </p>
+          <div class="card-rating">
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card-small">
+          <div class="card-header">
+            <div class="avatar-small">TW</div>
+            <div class="card-author-info">
+              <div class="card-author-name">Thomas Walker</div>
+              <div class="card-author-role">DevOps Engineer @ CloudScale</div>
+            </div>
+          </div>
+          <p class="card-text">
+            "Johurul's understanding of Docker and deployment pipelines makes
+            collaboration effortless. His code is clean, well-documented, and
+            production-ready."
+          </p>
+          <div class="card-rating">
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card-small">
+          <div class="card-header">
+            <div class="avatar-small">EM</div>
+            <div class="card-author-info">
+              <div class="card-author-name">Emma Morgan</div>
+              <div class="card-author-role">Business Analyst @ DataFlow</div>
+            </div>
+          </div>
+          <p class="card-text">
+            "Johurul has excellent communication skills and understands business
+            requirements perfectly. He transforms ideas into functional,
+            beautiful applications."
+          </p>
+          <div class="card-rating">
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats Section -->
+      <div class="testimonial-stats">
+        <div class="stat-card">
+          <div class="stat-number">50+</div>
+          <div class="stat-label">Happy Clients</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">100+</div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">5.0</div>
+          <div class="stat-label">Average Rating</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">98%</div>
+          <div class="stat-label">Client Satisfaction</div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
     <section id="contact">
       <h2 class="section-title">Get In Touch</h2>
       <div class="contact-content">
@@ -292,63 +563,11 @@
         </div>
       </div>
     </section>
-
+    <!-- Footer -->
     <footer>
       <p>&copy; 2024 Johurul Islam. All rights reserved.</p>
     </footer>
 
-    <script>
-      // Create floating particles
-      for (let i = 0; i < 20; i++) {
-        const particle = document.createElement('div');
-        particle.className = 'particle';
-        particle.style.left = Math.random() * 100 + '%';
-        particle.style.top = Math.random() * 100 + '%';
-        particle.style.animationDelay = Math.random() * 15 + 's';
-        particle.style.animationDuration = Math.random() * 10 + 10 + 's';
-        document.querySelector('.bg-animation').appendChild(particle);
-      }
-
-      // Mobile menu toggle
-      function toggleMenu() {
-        document.getElementById('nav').classList.toggle('active');
-      }
-
-      // Smooth scroll
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-          e.preventDefault();
-          const target = document.querySelector(this.getAttribute('href'));
-          if (target) {
-            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            document.getElementById('nav').classList.remove('active');
-          }
-        });
-      });
-
-      // Add animation on scroll
-      const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -100px 0px',
-      };
-
-      const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.style.opacity = '1';
-            entry.target.style.transform = 'translateY(0)';
-          }
-        });
-      }, observerOptions);
-
-      document
-        .querySelectorAll('.project-card, .experience-card, .skill-category')
-        .forEach(el => {
-          el.style.opacity = '0';
-          el.style.transform = 'translateY(30px)';
-          el.style.transition = 'all 0.6s ease-out';
-          observer.observe(el);
-        });
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>

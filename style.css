@@ -373,18 +373,6 @@ section {
   animation: fadeInUp 0.8s ease-out;
 }
 
-.project-card::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100px;
-  height: 100px;
-  background: radial-gradient(circle, var(--accent-glow), transparent);
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
 .project-card:hover::after {
   opacity: 1;
 }

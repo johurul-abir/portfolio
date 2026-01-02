@@ -38,16 +38,8 @@ body {
   position: absolute;
   width: 200%;
   height: 200%;
-  background: radial-gradient(
-      circle at 20% 50%,
-      rgba(0, 240, 255, 0.05) 0%,
-      transparent 50%
-    ),
-    radial-gradient(
-      circle at 80% 80%,
-      rgba(138, 43, 226, 0.05) 0%,
-      transparent 50%
-    );
+  background: radial-gradient(circle at 20% 50%, rgba(0, 240, 255, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(138, 43, 226, 0.05) 0%, transparent 50%);
   animation: bgMove 20s ease-in-out infinite;
 }
 
@@ -259,7 +251,7 @@ nav a:hover::after {
 }
 
 .btn-secondary:hover {
-  color: var(--accent);
+  color: #ffffff;
 }
 
 /* Section Styles */
@@ -312,12 +304,7 @@ section {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(0, 240, 255, 0.1),
-    transparent
-  );
+  background: linear-gradient(90deg, transparent, rgba(0, 240, 255, 0.1), transparent);
   transition: left 0.5s;
 }
 
